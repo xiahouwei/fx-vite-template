@@ -29,7 +29,6 @@ export default defineConfig({
     port: 8096,
     open: true,
     proxy: {
-      // 选项写法
       '/v2': {
         target: 'https://api.douban.com/',
         changeOrigin: true,
